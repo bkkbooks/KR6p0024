@@ -1,0 +1,83 @@
+canonical_identifier: bkk:krp/KR6p0024/v1
+canonical_location: https://kanripo.org/bkk/KR6p0024/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 阿彌陀經已決
+  identifiers:
+    alt_id:
+    - X22n0429
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X22/X22n0429.xml
+    old_id: X22n0429
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6p0024_000.yaml, hash: 'sha256:9e34f46ea36d8085d88339baad36c0d912b7da38cde29929975c6a94760cf639'}
+  - {seq: 1, filename: KR6p0024_001.yaml, hash: 'sha256:0e18cc54b04202b1e4bc5c54754a2c1c8da945fab077576ba170b9090ea6cff5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6p0024_000.markers.yaml, hash: 'sha256:baea147622852868f10b432348765a12af5e91cd02f707d74ce64ada1f2db900'}
+  - {seq: 1, role: markers, filename: assets/KR6p0024_001.markers.yaml, hash: 'sha256:15d22d95166d930ffae0ce86276f78a3c97e0fee87f5c58581df22258af4d67a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6p0024_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 429-A 淨土已訣序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6p0024_X_000-mulu-2
+    span:
+    - front
+    - 439
+    - 439
+  label: 淨土已訣
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0024_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 4517
+  label: 淨土已訣
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0024_X_001-mulu-1
+    span:
+    - body
+    - 4033
+    - 4033
+  label: No. 429-B 北禪量公二注跋尾
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0024_X_001-mulu-2
+    span:
+    - body
+    - 4211
+    - 4211
+  label: No. 429-C
+  type: mulu
+  level: 1
+hash: sha256:7dfd1532f68bbb6cd90a1e5c67673f6a4fe055bd3876d2b94fc0770aaf4271f9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
