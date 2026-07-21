@@ -19,17 +19,17 @@ metadata:
     short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6p0024_000-X.yaml, hash: 'sha256:b07f18286157ab781c98b2eff298e590c0c6733d1fa758fcad5f1e98f8cea4dc'}
+  - {seq: 0, filename: KR6p0024_000-X.yaml, hash: 'sha256:5e7b93e673baf98f2dfb37a8bd05666b7905dde76e16b4e345b0c17d89b89229'}
   - {seq: 1, filename: KR6p0024_001-X.yaml, hash: 'sha256:9b5044c1554a7e176228ec804f38500151090c7664078c44a2cfeda716cca1fa'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6p0024_000-X.markers.yaml, hash: 'sha256:661920a152070d4c69faf1ce5f054b14567d5ca28d30167bcad6b31a182aaff4'}
+  - {seq: 0, role: markers, filename: assets/KR6p0024_000-X.markers.yaml, hash: 'sha256:2a95ad0f78d5767da057bdfed048995b64b71fc63eab87d0722d31f6d5c28e0f'}
   - {seq: 1, role: markers, filename: assets/KR6p0024_001-X.markers.yaml, hash: 'sha256:5e9a7b49f41790f82b675b5aaddca0d6a2bf3f42f9f25385006533f5a1b3a0ae'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6p0024_X_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: No. 429-A 淨土已訣序
@@ -39,7 +39,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6p0024_X_000-mulu-2
     span:
-    - front
+    - body
     - 439
     - 439
   label: 淨土已訣
@@ -75,4 +75,4 @@ table_of_contents:
   label: No. 429-C
   type: mulu
   level: 1
-hash: sha256:1203aeb2b99d1113edc1acfd87a0eb5b7fc8616b97039c9cda729db9530369f1
+hash: sha256:a12725df3ffd6a1454434ba22ee2d7f6fc0710b05be60e6434ebe18fddcff055
